@@ -7,6 +7,7 @@ public class PlanetExplorer {
 	int voziloX;
 	int voziloY;
 	String smer;
+	boolean smerPoY; 
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -18,7 +19,7 @@ public class PlanetExplorer {
 		voziloX = 0;
 		voziloY = 0;
 		smer = "N";
-			
+		smerPoY = true;
 	}
 	
 	public String executeCommand(String command){
@@ -49,7 +50,15 @@ public class PlanetExplorer {
 					smer = "N";
 				}
 			} else if (command == "l") {
-				result = "(0,0,w)";
+				if(smer == "N") {
+					smer = "W";
+				} else if(smer == "E") {
+					smer = "N";
+				} else if(smer == "S") {
+					smer = "E";
+				} else if(smer == "W") {
+					smer = "N";
+				}
 			}
 		}
 		String result = "(" + voziloX + ","+ voziloY+ "," + smer+")";
