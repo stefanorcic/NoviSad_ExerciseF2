@@ -34,6 +34,8 @@ public class PlanetExplorer {
 			result = "(0,2,N)";
 		} else if (command == "r") {
 			result = "(0,0,E)";
+		} else if (command == "l") {
+			result = "(0,0,w)";
 		}
 		
 		return result;
