@@ -130,3 +130,9 @@ UnitTestCaseAction 1496947770116 TestPlanetExplorer.java OK
 UnitTestSessionAction 1496947770117 TestPlanetExplorer.java OK
 RefactoringAction 1496947780545 TestPlanetExplorer.java ADD void test_executeCommandFFL()/2 METHOD
 EditAction 1496947791160 TestPlanetExplorer.java 1746 8 32 8
+CompilationAction 1496947794350 TestPlanetExplorer.java
+CompilationAction 1496947799952 TestPlanetExplorer.java
+UnitTestCaseAction 1496947801835 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496947801836 TestPlanetExplorer.test_executeCommandFFFFL FAIL
+RefactoringAction 1496947860792 TestPlanetExplorer.java RENAME test_executeCommandFFFFL()=>void test_executeCommandFFFFFL() METHOD
+EditAction 1496947861167 TestPlanetExplorer.java 1750 8 32 8
