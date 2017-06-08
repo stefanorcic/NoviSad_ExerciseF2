@@ -50,22 +50,30 @@ public class PlanetExplorer {
 			} else if (command == "r") {
 				if(smer == "N") {
 					smer = "E";
+					smerPoY=false;
 				} else if(smer == "E") {
 					smer = "S";
+					smerPoY=true;
 				} else if(smer == "S") {
 					smer = "W";
+					smerPoY=false;
 				} else if(smer == "W") {
 					smer = "N";
+					smerPoY=true;
 				}
 			} else if (command == "l") {
 				if(smer == "N") {
 					smer = "W";
+					smerPoY=false;
 				} else if(smer == "E") {
 					smer = "N";
+					smerPoY=true;
 				} else if(smer == "S") {
 					smer = "E";
+					smerPoY=false;
 				} else if(smer == "W") {
-					smer = "N";
+					smer = "S";
+					smerPoY=true;
 				}
 			}
 		}
