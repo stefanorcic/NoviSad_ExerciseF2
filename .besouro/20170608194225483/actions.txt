@@ -110,3 +110,6 @@ RefactoringAction 1496947656682 PlanetExplorer.java REMOVE result FIELD
 RefactoringAction 1496947662243 PlanetExplorer.java ADD String result FIELD
 RefactoringAction 1496947663760 PlanetExplorer.java REMOVE result FIELD
 EditAction 1496947668201 PlanetExplorer.java 2640 2 9 0
+UnitTestCaseAction 1496947673619 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496947673620 TestPlanetExplorer.java FAIL
+EditAction 1496947689166 TestPlanetExplorer.java 1120 5 20 5

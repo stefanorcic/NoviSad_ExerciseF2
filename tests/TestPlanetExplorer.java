@@ -36,7 +36,7 @@ public class TestPlanetExplorer {
 	public void test_executeCommandFF() {
 		PlanetExplorer pl = new PlanetExplorer(3,3, "");
 		String rower = pl.executeCommand("ff");
-		String expected = "(0,0,W)";
+		String expected = "(0,2,N)";
 		assertEquals(expected, rower);
 	}
 }
