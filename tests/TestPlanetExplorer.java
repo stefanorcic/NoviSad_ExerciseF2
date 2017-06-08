@@ -32,4 +32,11 @@ public class TestPlanetExplorer {
 		String expected = "(0,0,W)";
 		assertEquals(expected, rower);
 	}
+	@Test
+	public void test_executeCommandFF() {
+		PlanetExplorer pl = new PlanetExplorer(3,3, "");
+		String rower = pl.executeCommand("ff");
+		String expected = "(0,0,W)";
+		assertEquals(expected, rower);
+	}
 }
