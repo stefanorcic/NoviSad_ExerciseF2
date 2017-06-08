@@ -29,7 +29,7 @@ public class TestPlanetExplorer {
 	public void test_executeCommandL() {
 		PlanetExplorer pl = new PlanetExplorer(3,3, "");
 		String rower = pl.executeCommand("l");
-		String expected = "(0,0,w)";
+		String expected = "(0,0,W)";
 		assertEquals(expected, rower);
 	}
 }

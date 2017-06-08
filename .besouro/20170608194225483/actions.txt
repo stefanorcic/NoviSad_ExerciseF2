@@ -42,3 +42,29 @@ EditAction 1496945967414 PlanetExplorer.java 1465 2 4 0
 UnitTestCaseAction 1496945975216 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1496945975218 TestPlanetExplorer.java FAIL
 EditAction 1496945989973 PlanetExplorer.java 1519 2 4 0
+UnitTestCaseAction 1496945995438 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496945995440 TestPlanetExplorer.java OK
+CompilationAction 1496946264925 PlanetExplorer.java
+CompilationAction 1496946264926 PlanetExplorer.java
+RefactoringAction 1496946277058 PlanetExplorer.java ADD int voziloX FIELD
+RefactoringAction 1496946277061 PlanetExplorer.java ADD int voziloY FIELD
+CompilationAction 1496946277563 PlanetExplorer.java
+CompilationAction 1496946277622 PlanetExplorer.java
+CompilationAction 1496946277943 PlanetExplorer.java
+CompilationAction 1496946277944 PlanetExplorer.java
+RefactoringAction 1496946284101 PlanetExplorer.java RENAME PlanetExplorer(int, int, String)=>int x FIELD
+CompilationAction 1496946299900 PlanetExplorer.java
+CompilationAction 1496946299902 PlanetExplorer.java
+CompilationAction 1496946300173 PlanetExplorer.java
+CompilationAction 1496946300174 PlanetExplorer.java
+RefactoringAction 1496946429480 PlanetExplorer.java ADD String smer FIELD
+CompilationAction 1496946445160 PlanetExplorer.java
+CompilationAction 1496946445161 PlanetExplorer.java
+CompilationAction 1496946445516 PlanetExplorer.java
+CompilationAction 1496946453794 PlanetExplorer.java
+CompilationAction 1496946454056 PlanetExplorer.java
+CompilationAction 1496946478603 PlanetExplorer.java
+CompilationAction 1496946478880 PlanetExplorer.java
+CompilationAction 1496946566309 PlanetExplorer.java
+CompilationAction 1496946566608 PlanetExplorer.java
+EditAction 1496946579396 TestPlanetExplorer.java 914 4 16 4
