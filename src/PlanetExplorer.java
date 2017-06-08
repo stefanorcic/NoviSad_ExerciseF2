@@ -13,6 +13,7 @@ public class PlanetExplorer {
 		 
 	 */
 		int [][] vozilo = new int [x][y];
+			
 	}
 	
 	public String executeCommand(String command){
