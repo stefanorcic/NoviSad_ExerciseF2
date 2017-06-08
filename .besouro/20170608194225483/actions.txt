@@ -9,3 +9,7 @@ UnitTestSessionAction 1496944918474 TestPlanetExplorer.java OK
 RefactoringAction 1496944960353 TestPlanetExplorer.java ADD void test_executeCommand()/2 METHOD
 RefactoringAction 1496944977891 TestPlanetExplorer.java RENAME test_executeCommand()/2=>void test_executeCommandBack() METHOD
 EditAction 1496945006297 TestPlanetExplorer.java 506 2 8 2
+UnitTestCaseAction 1496945046529 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496945046530 TestPlanetExplorer.java FAIL
+RefactoringAction 1496945103203 PlanetExplorer.java ADD import org.junit.Assert.assertEquals IMPORT
+EditAction 1496945109303 PlanetExplorer.java 1371 2 3 0

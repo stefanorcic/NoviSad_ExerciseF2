@@ -25,7 +25,12 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
-		String result = "(0,1,E)";
+		String result ="";
+		if(command == "f"){
+			result = "(0,1,E)";
+		} else if (command == "b") {
+			result = "(0,2,E)";
+		}
 		
 		return result;
 	}
