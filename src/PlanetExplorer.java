@@ -40,9 +40,9 @@ public class PlanetExplorer {
 		
 		for (int i = 0; i < command.length(); i++) {
 			if(command == "f"){
-				if (voziloY == y) {
+				if (smerPoY && voziloY == y) {
 					voziloY = 0;
-				} else if (voziloX == x) {
+				} else if (smerPoY == false && voziloX == x) {
 					voziloX = 0;
 				} else {
 					if (smerPoY) {
@@ -53,10 +53,17 @@ public class PlanetExplorer {
 				}
 				
 			} else if (command == "b") {
-				if (smerPoY) {
-					voziloY--;
+				
+				if (smerPoY && voziloY == 0) {
+					voziloY = y;
+				} else if (smerPoY == false && voziloX == 0) {
+					voziloX = x;
 				} else {
-					voziloX--;
+					if (smerPoY) {
+						voziloY--;
+					} else {
+						voziloX--;
+					}
 				}
 			} else if (command == "r") {
 				if(smer == "N") {
