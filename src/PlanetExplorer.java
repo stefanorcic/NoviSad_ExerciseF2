@@ -3,6 +3,7 @@
 // Finish time: 20:45
 // Student ID: IT11/2015
 
+
 public class PlanetExplorer {
 	int voziloX;
 	int voziloY;
