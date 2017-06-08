@@ -36,7 +36,11 @@ public class PlanetExplorer {
 		
 		for (int i = 0; i < command.length(); i++) {
 			if(command == "f"){
-				voziloX++;
+				if (smerPoY) {
+					voziloY++;
+				} else {
+					voziloY++;
+				}
 			} else if (command == "b") {
 				voziloY++;
 			} else if (command == "r") {
