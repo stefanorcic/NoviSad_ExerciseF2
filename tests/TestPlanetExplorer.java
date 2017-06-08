@@ -72,4 +72,9 @@ public class TestPlanetExplorer {
 	public void test_exceptionXnegativan() throws PlanetExplorerException{
 		PlanetExplorer pl = new PlanetExplorer(-3,3, "");
 	}
+	@Test
+	(expected  = PlanetExplorerException.class)
+	public void test_exceptionYnegativan() throws PlanetExplorerException{
+		PlanetExplorer pl = new PlanetExplorer(3,-3, "");
+	}
 }

@@ -158,3 +158,8 @@ RefactoringAction 1496948144552 TestPlanetExplorer.java RENAME test_exceptionXor
 RefactoringAction 1496948148572 TestPlanetExplorer.java RENAME test_exceptionX=>void test_exceptionXnegativan() METHOD
 CompilationAction 1496948200794 TestPlanetExplorer.java
 EditAction 1496948206367 PlanetExplorer.java 2736 2 10 0
+UnitTestCaseAction 1496948210470 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496948210473 TestPlanetExplorer.java OK
+RefactoringAction 1496948220688 TestPlanetExplorer.java ADD void test_exceptionXnegativan()/2 METHOD
+RefactoringAction 1496948224714 TestPlanetExplorer.java RENAME test_exceptionXnegativan()/2=>void test_exceptionYnegativan() METHOD
+EditAction 1496948229847 TestPlanetExplorer.java 2584 11 38 9
