@@ -142,3 +142,9 @@ RefactoringAction 1496947871813 TestPlanetExplorer.java ADD void test_executeCom
 RefactoringAction 1496947875845 TestPlanetExplorer.java RENAME test_executeCommandFFFFFL()/2=>void test_executeCommandBL() METHOD
 EditAction 1496947883991 TestPlanetExplorer.java 1956 9 36 9
 EditAction 1496947890845 TestPlanetExplorer.java 1956 9 36 9
+UnitTestCaseAction 1496947895293 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496947895295 TestPlanetExplorer.java OK
+RefactoringAction 1496948001093 PlanetExplorer.java ADD void PlaneExplorerException() METHOD
+RefactoringAction 1496948004622 PlanetExplorer.java REMOVE PlaneExplorerException() METHOD
+FileOpenedAction 1496948017823 PlanetExplorerException.java 61 0 0 0
+EditAction 1496948079701 PlanetExplorer.java 2736 2 10 0
