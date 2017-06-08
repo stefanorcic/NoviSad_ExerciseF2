@@ -118,3 +118,8 @@ UnitTestSessionAction 1496947693662 TestPlanetExplorer.java OK
 RefactoringAction 1496947700338 TestPlanetExplorer.java ADD void test_executeCommandFF()/2 METHOD
 RefactoringAction 1496947723426 TestPlanetExplorer.java RENAME test_executeCommandFF()/2=>void test_executeCommandFFR() METHOD
 EditAction 1496947723706 TestPlanetExplorer.java 1328 6 24 6
+UnitTestCaseAction 1496947728167 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496947728169 TestPlanetExplorer.test_executeCommandFFR OK
+RefactoringAction 1496947735945 TestPlanetExplorer.java ADD void test_executeCommandFFR()/2 METHOD
+RefactoringAction 1496947739963 TestPlanetExplorer.java RENAME test_executeCommandFFR()/2=>void test_executeCommandFFL() METHOD
+EditAction 1496947743641 TestPlanetExplorer.java 1536 7 28 7

@@ -46,4 +46,11 @@ public class TestPlanetExplorer {
 		String expected = "(0,2,E)";
 		assertEquals(expected, rower);
 	}
+	@Test
+	public void test_executeCommandFFL() {
+		PlanetExplorer pl = new PlanetExplorer(3,3, "");
+		String rower = pl.executeCommand("ffr");
+		String expected = "(0,2,W)";
+		assertEquals(expected, rower);
+	}
 }
