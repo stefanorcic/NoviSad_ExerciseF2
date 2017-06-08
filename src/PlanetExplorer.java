@@ -42,7 +42,11 @@ public class PlanetExplorer {
 					voziloY++;
 				}
 			} else if (command == "b") {
-				voziloY++;
+				if (smerPoY) {
+					voziloY--;
+				} else {
+					voziloY--;
+				}
 			} else if (command == "r") {
 				if(smer == "N") {
 					smer = "E";
