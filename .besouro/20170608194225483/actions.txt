@@ -113,3 +113,8 @@ EditAction 1496947668201 PlanetExplorer.java 2640 2 9 0
 UnitTestCaseAction 1496947673619 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1496947673620 TestPlanetExplorer.java FAIL
 EditAction 1496947689166 TestPlanetExplorer.java 1120 5 20 5
+UnitTestCaseAction 1496947693659 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496947693662 TestPlanetExplorer.java OK
+RefactoringAction 1496947700338 TestPlanetExplorer.java ADD void test_executeCommandFF()/2 METHOD
+RefactoringAction 1496947723426 TestPlanetExplorer.java RENAME test_executeCommandFF()/2=>void test_executeCommandFFR() METHOD
+EditAction 1496947723706 TestPlanetExplorer.java 1328 6 24 6
