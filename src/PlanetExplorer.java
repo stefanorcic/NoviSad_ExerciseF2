@@ -55,9 +55,9 @@ public class PlanetExplorer {
 			} else if (command == "b") {
 				
 				if (smerPoY && voziloY == 0) {
-					voziloY = y;
+					voziloY = y-1;
 				} else if (smerPoY == false && voziloX == 0) {
-					voziloX = x;
+					voziloX = x-1;
 				} else {
 					if (smerPoY) {
 						voziloY--;
