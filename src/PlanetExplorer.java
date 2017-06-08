@@ -42,6 +42,8 @@ public class PlanetExplorer {
 			if(command == "f"){
 				if (voziloY == y) {
 					voziloY = 0;
+				} else if (voziloX == x) {
+					voziloX = 0;
 				} else {
 					if (smerPoY) {
 						voziloY++;
