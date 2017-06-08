@@ -29,3 +29,8 @@ EditAction 1496945410044 PlanetExplorer.java 1426 2 3 0
 UnitTestCaseAction 1496945415832 TestPlanetExplorer.java OK
 UnitTestSessionAction 1496945415834 TestPlanetExplorer.java OK
 EditAction 1496945652384 PlanetExplorer.java 1462 2 4 0
+RefactoringAction 1496945849250 TestPlanetExplorer.java ADD void test_executeCommandRF()/2 METHOD
+RefactoringAction 1496945852269 TestPlanetExplorer.java RENAME test_executeCommandRF()/2=>void test_executeCommandR() METHOD
+RefactoringAction 1496945897310 TestPlanetExplorer.java RENAME test_executeCommandRF()=>void test_executeCommandR()/2 METHOD
+RefactoringAction 1496945928344 TestPlanetExplorer.java RENAME test_executeCommandR()/2=>void test_executeCommandL() METHOD
+EditAction 1496945937220 TestPlanetExplorer.java 914 4 16 4

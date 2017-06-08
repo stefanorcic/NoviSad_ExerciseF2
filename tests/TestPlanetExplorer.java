@@ -19,9 +19,16 @@ public class TestPlanetExplorer {
 		assertEquals(expected, rower);
 	}
 	@Test
-	public void test_executeCommandRF() {
+	public void test_executeCommandR() {
 		PlanetExplorer pl = new PlanetExplorer(3,3, "");
-		String rower = pl.executeCommand("rf");
+		String rower = pl.executeCommand("r");
+		String expected = "(0,0,E)";
+		assertEquals(expected, rower);
+	}
+	@Test
+	public void test_executeCommandL() {
+		PlanetExplorer pl = new PlanetExplorer(3,3, "");
+		String rower = pl.executeCommand("l");
 		String expected = "(0,0,E)";
 		assertEquals(expected, rower);
 	}
