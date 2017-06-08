@@ -32,7 +32,7 @@ public class PlanetExplorer {
 			result = "(0,1,N)";
 		} else if (command == "b") {
 			result = "(0,2,N)";
-		} else if (command == "rf") {
+		} else if (command == "r") {
 			result = "(0,0,E)";
 		}
 		
