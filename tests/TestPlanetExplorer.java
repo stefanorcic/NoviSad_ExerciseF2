@@ -11,4 +11,11 @@ public class TestPlanetExplorer {
 		String expected = "(0,1,E)";
 		assertEquals(expected, rower);
 	}
+	@Test
+	public void test_executeCommandBack() {
+		PlanetExplorer pl = new PlanetExplorer(3,3, "");
+		String rower = pl.executeCommand("b");
+		String expected = "(0,2,E)";
+		assertEquals(expected, rower);
+	}
 }

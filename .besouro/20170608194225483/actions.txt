@@ -4,3 +4,8 @@ EditAction 1496944868818 TestPlanetExplorer.java 299 1 4 1
 UnitTestCaseAction 1496944873994 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1496944873997 TestPlanetExplorer.java FAIL
 EditAction 1496944913005 PlanetExplorer.java 1276 2 2 0
+UnitTestCaseAction 1496944918473 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496944918474 TestPlanetExplorer.java OK
+RefactoringAction 1496944960353 TestPlanetExplorer.java ADD void test_executeCommand()/2 METHOD
+RefactoringAction 1496944977891 TestPlanetExplorer.java RENAME test_executeCommand()/2=>void test_executeCommandBack() METHOD
+EditAction 1496945006297 TestPlanetExplorer.java 506 2 8 2
