@@ -99,3 +99,14 @@ RefactoringAction 1496947434055 TestPlanetExplorer.java ADD void test_executeCom
 RefactoringAction 1496947438076 TestPlanetExplorer.java RENAME test_executeCommandL()/2=>void test_executeCommand()/2 METHOD
 RefactoringAction 1496947441097 TestPlanetExplorer.java RENAME test_executeCommand()/2=>void test_executeCommandFF() METHOD
 EditAction 1496947444692 TestPlanetExplorer.java 1120 5 20 5
+UnitTestCaseAction 1496947450507 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496947450509 TestPlanetExplorer.java FAIL
+RefactoringAction 1496947635535 PlanetExplorer.java ADD String result FIELD
+RefactoringAction 1496947637059 PlanetExplorer.java REMOVE result FIELD
+RefactoringAction 1496947647094 PlanetExplorer.java ADD String result FIELD
+RefactoringAction 1496947649115 PlanetExplorer.java REMOVE result FIELD
+RefactoringAction 1496947655160 PlanetExplorer.java ADD String result FIELD
+RefactoringAction 1496947656682 PlanetExplorer.java REMOVE result FIELD
+RefactoringAction 1496947662243 PlanetExplorer.java ADD String result FIELD
+RefactoringAction 1496947663760 PlanetExplorer.java REMOVE result FIELD
+EditAction 1496947668201 PlanetExplorer.java 2640 2 9 0
