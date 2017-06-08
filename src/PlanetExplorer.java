@@ -31,7 +31,7 @@ public class PlanetExplorer {
 		} else if (command == "b") {
 			result = "(0,2,N)";
 		} else if (command == "rf") {
-			result = "(0,0,E)"
+			result = "(0,0,E)";
 		}
 		
 		return result;
