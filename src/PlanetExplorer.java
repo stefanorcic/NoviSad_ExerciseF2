@@ -27,9 +27,9 @@ public class PlanetExplorer {
 		 */
 		String result ="";
 		if(command == "f"){
-			result = "(0,1,E)";
+			result = "(0,1,N)";
 		} else if (command == "b") {
-			result = "(0,2,E)";
+			result = "(0,2,N)";
 		}
 		
 		return result;
